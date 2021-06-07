@@ -1,9 +1,9 @@
 <li>
     <div>
-        <h2>Title</h2>
-        <h3>Date</h3>
+        <h2>{{ postTitle }}</h2>
+        <h3>{{postCreationDate | date: 'long' | uppercase }}</h3>
     </div>
-    <p>Content</p>
+    <p>{{ postContent }}</p>
     <div>
         <button>Love it!</button>
         <button>Don't love it!</button>
