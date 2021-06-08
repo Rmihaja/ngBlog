@@ -9,7 +9,7 @@ export class Post {
         
         this.title = title;
         this.content = content;
-        this.loveIts = Math.round(Math.random() * 100);
+        this.loveIts = 0;
         this.created_at = this.getRandomDate(new Date('2019-02-12T01:57:45.271Z'), new Date('2021-02-12T01:57:45.271Z'))
     }
 
